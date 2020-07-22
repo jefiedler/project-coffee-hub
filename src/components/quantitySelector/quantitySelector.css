@@ -1,7 +1,6 @@
 .quantitySelector {
   display: flex;
   align-items: stretch;
-  font-family: "Sen", sans-serif;
 }
 
 .quantitySelector > button {
