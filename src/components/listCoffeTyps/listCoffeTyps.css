@@ -1,0 +1,11 @@
+.listCoffeTyps {
+  display: flex;
+  background: #faf4ee;
+  font-family: "Sen", sans-serif;
+  flex-direction: column;
+}
+
+.listCoffeTyps > li {
+  list-style-type: none;
+  align-items: center;
+}
