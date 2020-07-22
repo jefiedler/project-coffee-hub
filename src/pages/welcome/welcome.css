@@ -5,3 +5,17 @@
   display: flex;
   justify-content: center;
 }
+
+.animation {
+  animation-name: slidein;
+  -webkit-animation: slidein 15s infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0;
+  }
+}
