@@ -1,14 +1,17 @@
-.list-coffetyps {
+.list {
   list-style-type: none;
-  background: #faf4ee;
   width: 100%;
   padding: 0;
 }
 
-.list-coffetyps > li {
+.list > li {
   display: flex;
   align-items: center;
   padding: 10px 10px;
+}
+
+.list > li > span {
+  flex-grow: 1;
 }
 
 .img-coffesymbols {
@@ -17,8 +20,4 @@
 
 .img-arrow {
   flex-basis: 20px;
-}
-
-.list-coffetyps > li > span {
-  flex-grow: 1;
 }

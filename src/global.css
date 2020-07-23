@@ -21,3 +21,7 @@ textarea {
   margin: 0;
   font-family: "Sen", sans-serif;
 }
+
+.view--widht {
+  width: 100vw;
+}
