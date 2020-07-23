@@ -1,11 +1,23 @@
-.listCoffeTyps {
-  display: flex;
-  background: #faf4ee;
-  font-family: "Sen", sans-serif;
-  flex-direction: column;
+.list {
+  list-style-type: none;
+  width: 100vw;
+  padding: 0;
 }
 
-.listCoffeTyps > li {
-  list-style-type: none;
+.list > li {
+  display: flex;
   align-items: center;
+  padding: 10px 10px;
+}
+
+.list > li > span {
+  flex-grow: 1;
+}
+
+.img-coffesymbols {
+  flex-basis: 90px;
+}
+
+.img-arrow {
+  flex-basis: 20px;
 }
