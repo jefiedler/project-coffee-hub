@@ -1,14 +1,32 @@
 .navButton {
   display: flex;
-  width: 100vw;
-  height: 96px;
+  position: fixed;
+  height: 92px;
+  bottom: 0;
+  left: 0;
   border-radius: 46px 46px 0 0;
   background: #fff;
   box-shadow: 0 2px 88px #fde9da;
   justify-content: space-around;
+  align-items: center;
 }
 
-.navButton > button {
+.navButton > a {
+  position: relative;
   border: none;
   background: transparent;
+}
+
+.coffeNav__bage {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  background: #8c746a;
+  color: white;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 1rem;
 }
