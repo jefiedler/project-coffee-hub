@@ -1,0 +1,18 @@
+.grid__container {
+  display: grid;
+  grid-template-rows: 92px auto 92px;
+  background-color: #faf4ee;
+}
+
+.grid__item--header {
+  grid-row: 1 / 2;
+}
+
+.grid__item--main {
+  overflow: auto;
+  grid-row: 2 / 3;
+}
+
+.grid__item--footer {
+  grid-row: 3 / 4;
+}
