@@ -12,5 +12,8 @@ function createButton(buttonText) {
 
 export const addToCart = () => {
   const addToCartButton = createButton("Add to cart");
+  addToCartButton.addEventListener("click", () => {
+    alert("Add one Coffe to the cart!");
+  });
   return addToCartButton;
 };
