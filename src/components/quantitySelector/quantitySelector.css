@@ -36,6 +36,12 @@
   fill: #fff;
 }
 
+.btn__minus:disabled,
+.btn__plus {
+  background-color: lightgray;
+  cursor: auto;
+}
+
 /* .left {
   border-radius: 100px 0 0 100px;
   padding: 8px 20px;
