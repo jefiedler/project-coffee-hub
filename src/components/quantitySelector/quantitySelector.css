@@ -37,9 +37,18 @@
 }
 
 .btn__minus:disabled,
-.btn__plus {
+.btn__plus:disabled {
   background-color: lightgray;
   cursor: auto;
+}
+
+.quantitySelector__input {
+  border: none;
+  font-size: 1.1rem;
+  color: #2d140d;
+  padding: 4px 6px;
+  flex-grow: 1;
+  text-align: center;
 }
 
 /* .left {
