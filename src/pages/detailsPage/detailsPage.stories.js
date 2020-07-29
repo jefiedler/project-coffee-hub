@@ -1,7 +1,7 @@
-import "./button.css";
-import { createButton } from "./button";
+import "./detailsPage.css";
+import { createButton } from "../../components/button/button";
 
-export default { title: "Button" };
+export default { title: "Pages/Details" };
 
 export const addToCart = () => {
   const addToCartButton = createButton("Add to cart");
