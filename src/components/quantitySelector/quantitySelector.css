@@ -51,6 +51,11 @@
   text-align: center;
 }
 
+.quantitySelector__input::-webkit-outer-spin-button,
+.quantitySelector__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 /* .left {
   border-radius: 100px 0 0 100px;
   padding: 8px 20px;
