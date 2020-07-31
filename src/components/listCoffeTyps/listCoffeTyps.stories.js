@@ -1,6 +1,9 @@
-import "./listCoffeTyps.css";
-import listCoffeTyps from "./listCoffeTyps.html";
+import { createList } from "./listCoffeTypes";
 
 export default { title: "List of Coffee Typs" };
 
-export const listOfCoffes = () => listCoffeTyps;
+export const listOfCoffes = () => {
+  const list = createList();
+
+  return list;
+};
