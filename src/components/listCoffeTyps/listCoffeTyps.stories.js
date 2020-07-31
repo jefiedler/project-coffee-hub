@@ -1,3 +1,4 @@
+import "../listCoffeTyps/listCoffeTyps.css";
 import { createList } from "./listCoffeTypes";
 
 export default { title: "List of Coffee Typs" };
