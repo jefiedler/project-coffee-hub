@@ -37,11 +37,25 @@
 }
 
 .btn__minus:disabled,
-.btn__plus {
+.btn__plus:disabled {
   background-color: lightgray;
   cursor: auto;
 }
 
+.quantitySelector__input {
+  border: none;
+  font-size: 1.1rem;
+  color: #2d140d;
+  padding: 4px 6px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.quantitySelector__input::-webkit-outer-spin-button,
+.quantitySelector__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 /* .left {
   border-radius: 100px 0 0 100px;
   padding: 8px 20px;
